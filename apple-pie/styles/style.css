@@ -13,12 +13,61 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+
 }
+
+
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  width: 40em;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.description{
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+}
+
+.fotoinfo{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em; 
+}
+
+.fotoinfo2{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em; 
+}
+
+.ingredients{
+  text-align: justify;  
+}
+
+.love{
+  text-align: center;
+  color: darkgreen;
+}
