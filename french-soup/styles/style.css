@@ -1,9 +1,53 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,h2,p, body, html, main {
   margin: 0;
+  padding: 0;
+  font-weight: ligter;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+  
 }
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+  width: 40em;
+  
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.description {
+  text-align: centered;
+}
+
+.fotoinfo1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+
+.fotoinfo2 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+   
+}
+
+.love{
+  text-align: center;
+  color: darkgreen;
 }
